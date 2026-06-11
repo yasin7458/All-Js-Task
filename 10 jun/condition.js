@@ -1,4 +1,4 @@
-var n1 = Number(prompt("Enter The Value Of N1 : "))
+var n1 = Number(prompt("Enter The Value Of N1 : "));
 var n2 = Number(prompt("Enter The Value Of N2 : "));
 var n3 = Number(prompt("Enter The Value Of N3 : "));
 var n4 = Number(prompt("Enter The Value Of N4 : "));
