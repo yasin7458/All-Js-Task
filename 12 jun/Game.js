@@ -51,7 +51,7 @@ for (;;) {
 
     playAgain = prompt("Play Again ? (yes / no)");
 
-    if (playAgain.toLowerCase() == "yes") {
+    if (playAgain == "yes") {
         playAgain = true;
     }
     else {
