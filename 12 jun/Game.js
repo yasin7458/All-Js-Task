@@ -2,7 +2,7 @@ for (;;) {
     alert("Welcome To Our Game Programme...")
     let randomNumber = Number(prompt("Enter The Number (1 To 100)"));
 
-    if (isNaN(randomNumber) || randomNumber < 1 || randomNumber > 100) {
+    if (randomNumber < 1 || randomNumber > 100) {
         alert("Invalid Number...!");
         continue;
     }
@@ -21,12 +21,7 @@ for (;;) {
         }
 
         let guess = Number(prompt("Enter Your Guess :"));
-
-        if (isNaN(guess)) {
-            alert("Invalid Input!");
-            continue;
-        }
-
+        
         if (guess < 1 || guess > 100) {
             alert("Enter Number Between 1 To 100");
             continue;
