@@ -1,0 +1,53 @@
+        table{
+            width: 80vw;
+            margin: auto;
+            display: none;
+            flex-direction: column;
+            gap: 10px;
+        }
+        thead,tbody{
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        tr{
+            display: flex;
+            gap: 10px;
+        }
+        td,th{
+            flex-grow: 1;
+            border: 2px solid blue;
+            text-align: center;
+        }
+        table,tr,td,th{
+            color: darkblue;
+            font-family: calibri;
+            font-size: 24px;
+        }
+        section{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+        }
+        button{
+            padding: 10px 20px;
+            font-family: verdana;
+            font-size: 24px;
+            color: white;
+            background-color: black;
+            border: none;
+            border-radius: 16px;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+        button:hover{
+            color: lightgray;
+            background-color: rgb(22, 22, 22);
+            transform: scale(1.1);
+        }
+        .show{
+            display: flex;
+        }
