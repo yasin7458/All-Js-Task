@@ -24,7 +24,7 @@ div {
     border-radius: 12px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
     letter-spacing: 1px;
-    max-width: 90%;
+    width: 90%;
     text-align: center;
 }
 
@@ -50,7 +50,7 @@ section main {
     border-radius: 10px;
     font-size: 18px;
     color: white;
-    min-width: 120px;
+    width: 120px;
     text-align: center;
     transition: 0.2s;
 }
